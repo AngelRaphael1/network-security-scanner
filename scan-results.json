@@ -1,0 +1,21 @@
+## 📊 Exemplo de Saída (JSON)
+
+Quando o scanner finaliza a varredura, ele exporta os resultados neste formato estruturado:
+
+```json
+[
+    {
+        "ip": "127.0.0.1",
+        "port": 445,
+        "service": "microsoft-ds",
+        "status": "open",
+        "timestamp": "2026-05-13 14:23:30.724768"
+    },
+    {
+        "ip": "127.0.0.1",
+        "port": 135,
+        "service": "epmap",
+        "status": "open",
+        "timestamp": "2026-05-13 14:23:30.724898"
+    }
+]
